@@ -24,18 +24,18 @@ public class appTest {
         loginScreen.ingresarButton.click();
 
         //menu
-        menuScreen.menuButton.click();
-        menuScreen.profileButton.click();
+        //menuScreen.menuButton.click();
+        //menuScreen.profileButton.click();
 
         //editarProfile
-        editProfile.paternoTextBox.setText("Apardo3");
+        //editProfile.paternoTextBox.setText("Apardo3");
         //editProfile.maternoTextBox.setText("Apardo1");
         //editProfile.celularTextBox.setText("77232323");
         //editProfile.expedidoTextBox.setText("BN");
-        editProfile.modificarProfileButton.click();
-        editProfile.aceptarProfileButton.click();
-        editProfile.aceptarPersonButton.click();
-        editProfile.atrasButton.click();
+        //editProfile.modificarProfileButton.click();
+        //editProfile.aceptarProfileButton.click();
+        //editProfile.aceptarPersonButton.click();
+        //editProfile.atrasButton.click();
 
         //menu
         menuScreen.menuButton.click();

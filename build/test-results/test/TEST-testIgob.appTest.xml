@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testIgob.appTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-03-05T06:12:00" hostname="MacBook-Pro-de-Janeth.local" time="327.107">
+<testsuite name="testIgob.appTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-03-05T06:24:48" hostname="MacBook-Pro-de-Janeth.local" time="287.672">
   <properties/>
-  <testcase name="verifyLogin()" classname="testIgob.appTest" time="327.107">
-    <failure message="org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MacBook-Pro-de-Janeth.local', ip: 'fd00:606c:6325:569a:a:2464:1dff:3c86%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.16.1'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.gamlp.igob247.MainActivity, appPackage: com.gamlp.igob247, databaseEnabled: false, desired: {appActivity: com.gamlp.igob247.MainActivity, appPackage: com.gamlp.igob247, deviceName: 15c2c35a, platformName: android, platformVersion: 9}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 8, deviceName: 15c2c35a, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 15c2c35a, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2050, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 9cc02c45-84c4-4098-b1c7-48ff7e048308&#10;*** Element info: {Using=xpath, value=//android.widget.EditText[@text='Apaza']}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+  <testcase name="verifyLogin()" classname="testIgob.appTest" time="287.672">
+    <failure message="org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MacBook-Pro-de-Janeth.local', ip: 'fd00:606c:6325:569a:a:2464:1dff:3c86%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.16.1'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.gamlp.igob247.MainActivity, appPackage: com.gamlp.igob247, databaseEnabled: false, desired: {appActivity: com.gamlp.igob247.MainActivity, appPackage: com.gamlp.igob247, deviceName: 15c2c35a, platformName: android, platformVersion: 9}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 8, deviceName: 15c2c35a, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 15c2c35a, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2050, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: bd4dbeed-69b9-4812-8899-54ea218b7c6a&#10;*** Element info: {Using=xpath, value=//android.view.View/android.view.View[3]/android.view.View/android.view.View[3]/android.widget.Image}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MacBook-Pro-de-Janeth.local', ip: 'fd00:606c:6325:569a:a:2464:1dff:3c86%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '11.0.16.1'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.gamlp.igob247.MainActivity, appPackage: com.gamlp.igob247, databaseEnabled: false, desired: {appActivity: com.gamlp.igob247.MainActivity, appPackage: com.gamlp.igob247, deviceName: 15c2c35a, platformName: android, platformVersion: 9}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 8, deviceName: 15c2c35a, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 15c2c35a, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2050, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 9cc02c45-84c4-4098-b1c7-48ff7e048308
-*** Element info: {Using=xpath, value=//android.widget.EditText[@text='Apaza']}
+Session ID: bd4dbeed-69b9-4812-8899-54ea218b7c6a
+*** Element info: {Using=xpath, value=//android.view.View/android.view.View[3]/android.view.View/android.view.View[3]/android.widget.Image}
 	at java.base@11.0.16.1/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base@11.0.16.1/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -37,8 +37,8 @@ Session ID: 9cc02c45-84c4-4098-b1c7-48ff7e048308
 	at app//io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at app//io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
 	at app//appiumcontrol.AppiumControl.findControl(AppiumControl.java:16)
-	at app//appiumcontrol.TextBox.setText(TextBox.java:10)
-	at app//testIgob.appTest.verifyLogin(appTest.java:31)
+	at app//appiumcontrol.AppiumControl.click(AppiumControl.java:24)
+	at app//testIgob.appTest.verifyLogin(appTest.java:42)
 	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -125,7 +125,7 @@ Session ID: 9cc02c45-84c4-4098-b1c7-48ff7e048308
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[mar. 05, 2023 2:12:10 A. M. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+  <system-err><![CDATA[mar. 05, 2023 2:24:59 A. M. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
