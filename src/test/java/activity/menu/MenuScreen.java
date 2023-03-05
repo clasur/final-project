@@ -8,6 +8,7 @@ public class MenuScreen {
 
     public Button menuButton = new Button(By.xpath("//android.widget.Button[@text='menu']"));
     public Button profileButton = new Button(By.xpath("//android.view.View/android.view.View[2]/android.view.View/android.view.View[2]/android.widget.Image"));
+    public Button changePinButton = new Button(By.xpath("//android.view.View/android.view.View[3]/android.view.View/android.view.View[3]/android.widget.Image"));
 
 
 

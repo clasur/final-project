@@ -1,5 +1,6 @@
 package testIgob;
 
+import activity.editProfile.EditProfile;
 import activity.login.LoginScreen;
 import activity.main.MainScreen;
 import activity.menu.MenuScreen;
@@ -10,6 +11,7 @@ public class appTest {
     LoginScreen loginScreen = new LoginScreen();
     MainScreen mainScreen = new MainScreen();
     MenuScreen menuScreen = new MenuScreen();
+    EditProfile editProfile = new EditProfile();
 
     @Test
     public void verifyLogin(){
@@ -26,8 +28,20 @@ public class appTest {
         menuScreen.profileButton.click();
 
         //editarProfile
+        editProfile.paternoTextBox.setText("Apardo3");
+        //editProfile.maternoTextBox.setText("Apardo1");
+        //editProfile.celularTextBox.setText("77232323");
+        //editProfile.expedidoTextBox.setText("BN");
+        editProfile.modificarProfileButton.click();
+        editProfile.aceptarProfileButton.click();
+        editProfile.aceptarPersonButton.click();
+        editProfile.atrasButton.click();
 
+        //menu
+        menuScreen.menuButton.click();
+        menuScreen.changePinButton.click();
 
+        //Cambiar Pin
 
     }
 
