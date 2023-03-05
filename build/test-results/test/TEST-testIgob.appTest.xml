@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testIgob.appTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-05T02:41:48" hostname="MacBook-Pro-de-Janeth.local" time="275.005">
+<testsuite name="testIgob.appTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-05T03:20:30" hostname="MacBook-Pro-de-Janeth.local" time="316.862">
   <properties/>
-  <testcase name="verifyLogin()" classname="testIgob.appTest" time="275.005"/>
+  <testcase name="verifyLogin()" classname="testIgob.appTest" time="316.862"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[mar. 04, 2023 10:41:58 P. M. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+  <system-err><![CDATA[mar. 04, 2023 11:20:40 P. M. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
