@@ -1,2 +1,5 @@
-package activity.editProfile;public class EditProfile {
+package activity.editProfile;
+
+public class EditProfile {
+
 }

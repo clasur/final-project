@@ -3,6 +3,7 @@ package testIgob;
 import activity.carnet.CarnetScreen;
 import activity.login.LoginScreen;
 import activity.main.MainScreen;
+import activity.menu.MenuScreen;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +11,7 @@ public class appTest {
 
     LoginScreen loginScreen = new LoginScreen();
     MainScreen mainScreen = new MainScreen();
-    CarnetScreen carnetScreen = new CarnetScreen();
+    MenuScreen menuScreen = new MenuScreen();
 
     @Test
     public void verifyLogin(){
@@ -19,8 +20,15 @@ public class appTest {
 
         loginScreen.modalButton.click();
         loginScreen.usuarioTextBox.setText(usuarioText);
-        loginScreen.passwordTextBox.setText("9313");
+        loginScreen.passwordTextBox.setText(pin);
         loginScreen.ingresarButton.click();
+
+        //menu
+        menuScreen.menuButton.click();
+
+        //editarProfile
+
+
 
     }
 
