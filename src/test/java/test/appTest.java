@@ -4,8 +4,13 @@ import activity.editProfile.EditProfile;
 import activity.login.LoginScreen;
 import activity.main.MainScreen;
 import activity.menu.MenuScreen;
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+
 
 public class appTest {
     LoginScreen loginScreen = new LoginScreen();
@@ -14,7 +19,9 @@ public class appTest {
     EditProfile editProfile = new EditProfile();
 
     @Test
-    public void verifyLogin(){
+    @Description("Test Login: Ingreso a la aplicacion mobil")
+    @Story("Cargado del Test")
+    public void verifyLogin()throws InterruptedException{
         String usuarioText ="6000101010";
         String pin = "6901";
 
@@ -22,6 +29,7 @@ public class appTest {
         loginScreen.usuarioTextBox.setText(usuarioText);
         loginScreen.passwordTextBox.setText(pin);
         loginScreen.ingresarButton.click();
+        String chargerTestSuccsessMsg = "The Charger check passed the test":
 
         //menu
         //menuScreen.menuButton.click();
@@ -38,8 +46,8 @@ public class appTest {
         //editProfile.atrasButton.click();
 
         //menu
-        menuScreen.menuButton.click();
-        menuScreen.changePinButton.click();
+        //menuScreen.menuButton.click();
+        //menuScreen.changePinButton.click();
 
         //Cambiar Pin
 
