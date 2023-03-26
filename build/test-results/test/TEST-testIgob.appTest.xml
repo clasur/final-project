@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testIgob.appTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-26T04:14:08" hostname="MacBook-Pro-de-Janeth.local" time="233.799">
-  <properties/>
-  <testcase name="verifyLogin()" classname="testIgob.appTest" time="233.799"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[mar. 26, 2023 12:14:18 A.?M. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
-INFO: Detected dialect: W3C
-]]></system-err>
-</testsuite>
